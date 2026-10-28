@@ -4,7 +4,65 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Ngo Minh Hieu — UX/UI Portfolio</title>
-<style>img{max-width:100%}body{margin:0}</style>
+<style>img{max-width:100%}body{margin:0}/* Fix project preview layout */
+.sector .in.lapcard {
+  grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr);
+  align-items: stretch;
+}
+
+.lapcard .poster {
+  width: 100%;
+  max-width: none;
+  height: auto;
+  min-width: 0;
+  border-radius: 0;
+}
+
+.lapcard .poster img {
+  position: static;
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.lapcard .board {
+  min-width: 0;
+  margin-top: 0;
+  border: 0;
+  border-radius: 0;
+}
+
+.lapcard .board div {
+  padding: 0;
+  border: 0;
+}
+
+.lapcard .tele {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px;
+}
+
+.lapcard .tele > div {
+  padding: 8px;
+  border: 1px solid rgba(255, 255, 255, .25);
+}
+
+.lapcard .tele .v {
+  white-space: normal;
+  overflow: visible;
+  overflow-wrap: anywhere;
+}
+
+@media (max-width: 760px) {
+  .sector .in.lapcard {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .lapcard .poster {
+    max-height: none;
+    border-right: 0;
+  }
+}</style>
 <script src="https://identity.netlify.com/v1/netlify-identity-widget.js" defer></script>
 </head>
 <body>
