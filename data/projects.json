@@ -1,0 +1,526 @@
+{
+ "projects": [
+  {
+   "id": "vievu",
+   "name": "VieVu",
+   "color": "#F97316",
+   "hero": "/img/hero-vievu.jpg",
+   "pages": [
+    "/pages/vievu-1.jpg",
+    "/pages/vievu-2.jpg",
+    "/pages/vievu-3.jpg",
+    "/pages/vievu-4.jpg",
+    "/pages/vievu-5.jpg"
+   ],
+   "en": {
+    "kicker": "AI travel assistant · UX/UI · From research to interface",
+    "tag": "Plan your trip, your way.",
+    "team": "4 members",
+    "time": "01/2025 – 04/2025",
+    "role": "Research · Visual direction",
+    "platform": "Mobile app",
+    "over": "A 4-person team project at FPT University Hanoi. I took part in research, UI review and visual direction. Travelers juggle scattered information and manual planning; VieVu turns preferences and available time into a feasible, editable itinerary, then keeps it on track with progress, alerts and alternatives.",
+    "phases": [
+     {
+      "title": "Research & problem definition",
+      "items": [
+       "Desk research",
+       "Research synthesis",
+       "User needs",
+       "Problem definition"
+      ]
+     },
+     {
+      "title": "Ideation & structure",
+      "items": [
+       "HMW questions",
+       "Concept cards",
+       "Customer journey",
+       "Information architecture · User flows"
+      ]
+     },
+     {
+      "title": "Design, testing & refinement",
+      "items": [
+       "Wireframe v1",
+       "Usability testing → v2",
+       "Expert review",
+       "Final UI · Prototype"
+      ]
+     }
+    ],
+    "cap": "Final UI · Itinerary creation, AI suggestions, filter & compare"
+   },
+   "vi": {
+    "kicker": "Trợ lý du lịch AI · UX/UI · Từ nghiên cứu đến giao diện",
+    "tag": "Lập kế hoạch du lịch theo cách của bạn.",
+    "team": "4 thành viên",
+    "time": "01/2025 – 04/2025",
+    "role": "Nghiên cứu · Định hướng thị giác",
+    "platform": "Ứng dụng di động",
+    "over": "Dự án nhóm 4 người tại Đại học FPT Hà Nội. Tôi tham gia nghiên cứu, rà soát UI và xây dựng định hướng thị giác. Người đi du lịch phải xoay xở với thông tin phân tán và việc lập kế hoạch thủ công; VieVu biến sở thích và thời gian hiện có thành lịch trình khả thi, dễ chỉnh sửa, rồi giữ chuyến đi đúng hướng bằng tiến độ, cảnh báo và phương án thay thế.",
+    "phases": [
+     {
+      "title": "Nghiên cứu & xác định vấn đề",
+      "items": [
+       "Nghiên cứu tài liệu",
+       "Tổng hợp nghiên cứu",
+       "Nhu cầu người dùng",
+       "Xác định vấn đề"
+      ]
+     },
+     {
+      "title": "Ý tưởng & cấu trúc",
+      "items": [
+       "Câu hỏi HMW",
+       "Thẻ ý tưởng",
+       "Hành trình khách hàng",
+       "Kiến trúc thông tin · Luồng"
+      ]
+     },
+     {
+      "title": "Thiết kế, kiểm thử & hoàn thiện",
+      "items": [
+       "Wireframe v1",
+       "Kiểm thử → v2",
+       "Đánh giá chuyên gia",
+       "UI hoàn thiện · Prototype"
+      ]
+     }
+    ],
+    "cap": "UI hoàn thiện · Tạo lịch trình, gợi ý AI, lọc & so sánh"
+   }
+  },
+  {
+   "id": "mayogu",
+   "name": "MAYogu",
+   "color": "#39B54A",
+   "hero": "/img/hero-mayogu.jpg",
+   "pages": [
+    "/pages/mayogu-1.jpg",
+    "/pages/mayogu-2.jpg",
+    "/pages/mayogu-3.jpg"
+   ],
+   "en": {
+    "kicker": "Community platform · Product improvements · Design system",
+    "tag": "Refine the interface. Add new ways to connect.",
+    "team": "2 members",
+    "time": "05/2026 – 07/2026",
+    "role": "UI design",
+    "platform": "Mobile app",
+    "over": "At MAYogu I worked in a team of two designers: refining the UI, updating the design system, adding random chat, event and ticket screens, and preparing the handoff for Front-end. The product is live on the App Store and Google Play.",
+    "phases": [
+     {
+      "title": "Ideation & structure",
+      "items": [
+       "HMW questions",
+       "Concept cards",
+       "User journey",
+       "Information architecture · User flows"
+      ]
+     },
+     {
+      "title": "Design & testing",
+      "items": [
+       "Wireframe v1",
+       "Testing → v2",
+       "Expert review",
+       "Final UI · Prototype"
+      ]
+     },
+     {
+      "title": "Handoff",
+      "items": [
+       "Component organisation",
+       "Auto Layout",
+       "Handoff file",
+       "Front-end collaboration"
+      ]
+     }
+    ],
+    "cap": "Random chat · Set a topic, find a room, join the conversation"
+   },
+   "vi": {
+    "kicker": "Nền tảng cộng đồng · Cải tiến sản phẩm · Hệ thống thiết kế",
+    "tag": "Hoàn thiện giao diện. Thêm cách kết nối mới.",
+    "team": "2 thành viên",
+    "time": "05/2026 – 07/2026",
+    "role": "Thiết kế UI",
+    "platform": "Ứng dụng di động",
+    "over": "Tại MAYogu, tôi làm trong nhóm 2 nhà thiết kế: chỉnh sửa UI, cập nhật hệ thống, bổ sung chat ngẫu nhiên, giao diện sự kiện và vé; chuẩn bị bàn giao cho Front-end. Sản phẩm đã có trên App Store và Google Play.",
+    "phases": [
+     {
+      "title": "Ý tưởng & cấu trúc",
+      "items": [
+       "Câu hỏi HMW",
+       "Thẻ ý tưởng",
+       "Hành trình",
+       "Kiến trúc thông tin · Luồng"
+      ]
+     },
+     {
+      "title": "Thiết kế & kiểm thử",
+      "items": [
+       "Wireframe v1",
+       "Kiểm thử → v2",
+       "Đánh giá chuyên gia",
+       "UI hoàn thiện · Prototype"
+      ]
+     },
+     {
+      "title": "Bàn giao",
+      "items": [
+       "Sắp xếp component",
+       "Auto Layout",
+       "File handoff",
+       "Phối hợp Front-end"
+      ]
+     }
+    ],
+    "cap": "Chat ngẫu nhiên · Thiết lập chủ đề, tìm phòng, tham gia trò chuyện"
+   }
+  },
+  {
+   "id": "ecobi",
+   "name": "ECOBI",
+   "color": "#2EB8A6",
+   "hero": "/img/hero-ecobi.jpg",
+   "pages": [
+    "/pages/ecobi-1.jpg",
+    "/pages/ecobi-2.jpg",
+    "/pages/ecobi-3.jpg",
+    "/pages/ecobi-4.jpg",
+    "/pages/ecobi-5.jpg",
+    "/pages/ecobi-6.jpg"
+   ],
+   "en": {
+    "kicker": "Ba Vi National Park operations · Research-driven design",
+    "tag": "Understand operations. Design the system.",
+    "team": "3 members",
+    "time": "01/2026 – 04/2026",
+    "role": "Concept · Research · Design system",
+    "platform": "Mobile app",
+    "over": "A 3-person graduation project at FPT University Hanoi. I led the concept, problem definition, interviews, visual direction and design system. ECOBI gives the management board a shared operations view with centralised shift scheduling and early congestion warnings, and gives field staff clear tasks, incident reporting and visible processing status.",
+    "phases": [
+     {
+      "title": "Research & discovery",
+      "items": [
+       "Desk research",
+       "Field survey at the national park",
+       "Interviews with managers & field staff",
+       "Personas for 2 user groups"
+      ]
+     },
+     {
+      "title": "Definition & structure",
+      "items": [
+       "Problem statements & goals",
+       "IA & operational workflow",
+       "Task flows · User flows",
+       "Feature prioritisation"
+      ]
+     },
+     {
+      "title": "Design & testing",
+      "items": [
+       "Wireframe → Mid-fi",
+       "Two rounds of usability testing",
+       "Management & operations UI",
+       "System thinking · Handoff"
+      ]
+     }
+    ],
+    "cap": "Management UI · Onboarding, home, tasks, statistics, staff management"
+   },
+   "vi": {
+    "kicker": "Vận hành Vườn quốc gia Ba Vì · Thiết kế từ nghiên cứu",
+    "tag": "Thấu hiểu vận hành. Thiết kế hệ thống.",
+    "team": "3 thành viên",
+    "time": "01/2026 – 04/2026",
+    "role": "Ý tưởng · Nghiên cứu · Hệ thống thiết kế",
+    "platform": "Ứng dụng di động",
+    "over": "Đồ án nhóm 3 người tại Đại học FPT Hà Nội. Tôi phụ trách chính ý tưởng, xác định vấn đề, phỏng vấn, định hướng thị giác và hệ thống thiết kế. ECOBI cho ban quản lý một góc nhìn vận hành chung với lịch trực tập trung và cảnh báo sớm ùn tắc; cho nhân viên hiện trường nhiệm vụ rõ ràng, báo sự cố và trạng thái xử lý.",
+    "phases": [
+     {
+      "title": "Nghiên cứu & khám phá",
+      "items": [
+       "Desk research",
+       "Khảo sát thực địa tại vườn quốc gia",
+       "Phỏng vấn quản lý & nhân viên vận hành",
+       "Persona 2 nhóm người dùng"
+      ]
+     },
+     {
+      "title": "Định nghĩa & cấu trúc",
+      "items": [
+       "Phát biểu vấn đề & mục tiêu",
+       "IA & workflow vận hành",
+       "Task flow · User flow",
+       "Ưu tiên tính năng"
+      ]
+     },
+     {
+      "title": "Thiết kế & kiểm thử",
+      "items": [
+       "Wireframe → Mid-fi",
+       "Usability test 2 vòng",
+       "UI quản lý & vận hành",
+       "System thinking · Handoff"
+      ]
+     }
+    ],
+    "cap": "UI quản lý · Onboarding, trang chủ, công việc, thống kê, quản lý nhân sự"
+   }
+  },
+  {
+   "id": "mayticket",
+   "name": "MAYticket",
+   "color": "#FF3B4E",
+   "hero": "/img/hero-mayticket.jpg",
+   "pages": [
+    "/pages/mayticket-1.jpg",
+    "/pages/mayticket-2.jpg"
+   ],
+   "en": {
+    "kicker": "Event ticketing website · Design system · Core flow",
+    "tag": "Start with the system. Connect the experience.",
+    "team": "2 members",
+    "time": "08/2026",
+    "role": "UI design",
+    "platform": "Mobile app · Website",
+    "over": "An event ticketing platform with three roles: ticket buyer, Organizer and Admin. I owned the design system, the core ticket-purchase flow, the event creation and management portal, and the ticket – payment – refund status system.",
+    "phases": [
+     {
+      "title": "Research & analysis",
+      "items": [
+       "Benchmark of ticketing platforms",
+       "Purchase-flow and drop-off analysis",
+       "Organizer / Admin requirements"
+      ]
+     },
+     {
+      "title": "System & core flow",
+      "items": [
+       "Design system (Inter, 4–16 px radii)",
+       "Core purchase & payment flow",
+       "Ticket · refund · event statuses"
+      ]
+     },
+     {
+      "title": "Interface & handoff",
+      "items": [
+       "Event discovery & detail UI",
+       "Organizer & Admin portal",
+       "State design · Handoff"
+      ]
+     }
+    ],
+    "cap": "Discover events · Event details with price, time and venue"
+   },
+   "vi": {
+    "kicker": "Website bán vé sự kiện · Hệ thống thiết kế · Luồng chính",
+    "tag": "Bắt đầu từ hệ thống. Kết nối trải nghiệm.",
+    "team": "2 thành viên",
+    "time": "08/2026",
+    "role": "Thiết kế UI",
+    "platform": "Ứng dụng di động · Website",
+    "over": "Nền tảng bán vé sự kiện với ba vai trò: người mua vé, Organizer và Admin. Tôi phụ trách design system, luồng mua vé cốt lõi, cổng tạo – quản lý sự kiện và hệ thống trạng thái vé – thanh toán – hoàn tiền.",
+    "phases": [
+     {
+      "title": "Khảo sát & phân tích",
+      "items": [
+       "Benchmark các nền tảng bán vé",
+       "Phân tích luồng mua vé & điểm rơi",
+       "Yêu cầu Organizer / Admin"
+      ]
+     },
+     {
+      "title": "Hệ thống & luồng chính",
+      "items": [
+       "Design system (Inter, bo góc 4–16)",
+       "Core flow mua vé & thanh toán",
+       "Trạng thái vé · hoàn tiền · sự kiện"
+      ]
+     },
+     {
+      "title": "Giao diện & bàn giao",
+      "items": [
+       "UI khám phá & chi tiết sự kiện",
+       "Cổng Organizer & Admin",
+       "Thiết kế trạng thái · Handoff"
+      ]
+     }
+    ],
+    "cap": "Khám phá sự kiện · Chi tiết sự kiện với giá, thời gian, địa điểm"
+   }
+  },
+  {
+   "id": "retrotunes",
+   "name": "RetroTunes",
+   "color": "#B48CFF",
+   "hero": "/img/hero-retrotunes.jpg",
+   "pages": [
+    "/pages/retrotunes-1.jpg",
+    "/pages/retrotunes-2.jpg",
+    "/pages/retrotunes-3.jpg",
+    "/pages/retrotunes-4.jpg",
+    "/pages/retrotunes-5.jpg",
+    "/pages/retrotunes-6.jpg"
+   ],
+   "en": {
+    "kicker": "Music discovery · UI exploration · Visual design",
+    "tag": "Familiar memories, new discovery.",
+    "team": "3 members",
+    "time": "05/2025 – 08/2025",
+    "role": "Lead UI designer",
+    "platform": "Mobile app",
+    "over": "A nostalgic music-discovery app with covers/remixes and shared listening. A 3-person team project at FPT University Hanoi. Dark neumorphism inspired by cassette players: Urbanist type, warm orange–pink accents on layered dark surfaces, a tactile player, real-time music rooms and Music Memory.",
+    "phases": [
+     {
+      "title": "Research",
+      "items": [
+       "Survey of listening habits",
+       "Nostalgic-listener persona",
+       "UI research & moodboard"
+      ]
+     },
+     {
+      "title": "Structure & wireframes",
+      "items": [
+       "Features & sitemap",
+       "User flows",
+       "Wireframes · Testing & refinement"
+      ]
+     },
+     {
+      "title": "Visual & UI",
+      "items": [
+       "Dark neumorphism",
+       "Player · Search · Music memory",
+       "Final UI & prototype"
+      ]
+     }
+    ],
+    "cap": "Screens · Onboarding, AI tape covers, real-time music room, Music Memory"
+   },
+   "vi": {
+    "kicker": "Khám phá âm nhạc · Khám phá UI · Thiết kế thị giác",
+    "tag": "Ký ức quen thuộc. Cách khám phá mới.",
+    "team": "3 thành viên",
+    "time": "05/2025 – 08/2025",
+    "role": "Phụ trách chính UI",
+    "platform": "Ứng dụng di động",
+    "over": "Ứng dụng khám phá nhạc hoài niệm, cover/remix và nghe chung. Dự án nhóm 3 người tại Đại học FPT Hà Nội. Dark neumorphism lấy cảm hứng từ máy cassette: chữ Urbanist, điểm nhấn cam – hồng ấm trên nền tối nhiều lớp, player có cảm giác chạm, phòng nghe thời gian thực và Music Memory.",
+    "phases": [
+     {
+      "title": "Nghiên cứu",
+      "items": [
+       "Khảo sát thói quen nghe nhạc",
+       "Persona người nghe hoài niệm",
+       "UI research & moodboard"
+      ]
+     },
+     {
+      "title": "Cấu trúc & wireframe",
+      "items": [
+       "Chức năng & sitemap",
+       "User flow",
+       "Wireframe · Kiểm thử & điều chỉnh"
+      ]
+     },
+     {
+      "title": "Visual & UI",
+      "items": [
+       "Dark neumorphism",
+       "Player · Search · Music memory",
+       "Final UI & prototype"
+      ]
+     }
+    ],
+    "cap": "Màn hình · Onboarding, AI tape covers, phòng nghe thời gian thực, Music Memory"
+   }
+  },
+  {
+   "id": "rikkeisoft",
+   "name": "Rikkeisoft",
+   "color": "#C8102E",
+   "hero": "/img/hero-rikkeisoft.jpg",
+   "pages": [
+    "/pages/rikkeisoft-1.jpg",
+    "/pages/rikkeisoft-2.jpg"
+   ],
+   "en": {
+    "kicker": "Event landing pages at Rikkeisoft · 2024—2025",
+    "tag": "Six campaigns. One communication direction.",
+    "team": "Internal communications",
+    "time": "06/2024 – 12/2025",
+    "role": "Part-time designer",
+    "platform": "Website · 1440 px",
+    "over": "Five landing pages and one mini game for internal campaigns at Rikkeisoft: Rikkei Awards 2025, Rikkei Training Awards · Polaris (mentor appreciation), the \"10 Flowers\" mini game for Vietnamese Women's Day, Rikkei Global Summit 2025, the 13th anniversary \"OneAI is Born\" page and the rikkeisoft.com AI product page, built with the communications team and Front-end.",
+    "phases": [
+     {
+      "title": "Brief & concept",
+      "items": [
+       "Campaign message",
+       "Key visual direction",
+       "Content structure"
+      ]
+     },
+     {
+      "title": "Design",
+      "items": [
+       "Desktop layouts at 1440 px",
+       "Illustration & 3D assets",
+       "Mini-game flow"
+      ]
+     },
+     {
+      "title": "Delivery",
+      "items": [
+       "Front-end handoff",
+       "Launch support",
+       "Event collateral"
+      ]
+     }
+    ],
+    "cap": "Campaigns · Global Summit 2025, 13th anniversary, AI solution page"
+   },
+   "vi": {
+    "kicker": "Landing page sự kiện tại Rikkeisoft · 2024—2025",
+    "tag": "Sáu chiến dịch. Một hướng truyền thông.",
+    "team": "Truyền thông nội bộ",
+    "time": "06/2024 – 12/2025",
+    "role": "Thiết kế bán thời gian",
+    "platform": "Website · 1440 px",
+    "over": "Năm landing page và một mini game cho các chiến dịch nội bộ tại Rikkeisoft: Rikkei Awards 2025, Rikkei Training Awards · Polaris (tri ân mentor), mini game \"10 đóa hoa\" dịp 20/10, Rikkei Global Summit 2025, trang kỷ niệm 13 năm \"OneAI is Born\" và trang giới thiệu sản phẩm AI trên rikkeisoft.com — phối hợp cùng đội truyền thông và Front-end.",
+    "phases": [
+     {
+      "title": "Brief & ý tưởng",
+      "items": [
+       "Thông điệp chiến dịch",
+       "Định hướng key visual",
+       "Cấu trúc nội dung"
+      ]
+     },
+     {
+      "title": "Thiết kế",
+      "items": [
+       "Layout desktop 1440 px",
+       "Minh họa & asset 3D",
+       "Luồng mini game"
+      ]
+     },
+     {
+      "title": "Bàn giao",
+      "items": [
+       "Handoff Front-end",
+       "Hỗ trợ ra mắt",
+       "Ấn phẩm sự kiện"
+      ]
+     }
+    ],
+    "cap": "Chiến dịch · Global Summit 2025, kỷ niệm 13 năm, trang giải pháp AI"
+   }
+  }
+ ]
+}
