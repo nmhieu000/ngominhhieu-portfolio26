@@ -443,6 +443,33 @@ addEventListener('keydown',e=>{if(title.classList.contains('out'))return;if(e.ke
 window.renderRace=build;
 })();
 </script>
+<style>
+.sector .in.lapcard {
+  grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr);
+  align-items: stretch;
+}
 
+.sector .lapcard .poster {
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+  height: auto;
+  max-height: none;
+  overflow: hidden;
+}
+
+.sector .lapcard .poster img {
+  position: static;
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 760px) {
+  .sector .in.lapcard {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+</style>
 </body>
 </html>
