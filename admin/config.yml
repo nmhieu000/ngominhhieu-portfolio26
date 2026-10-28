@@ -1,0 +1,63 @@
+backend:
+  name: git-gateway
+  branch: main
+
+locale: vi
+site_url: /
+display_url: /
+logo_url: /img/hero-vievu.jpg
+
+media_folder: "img/uploads"
+public_folder: "/img/uploads"
+
+collections:
+  - name: "portfolio"
+    label: "Portfolio"
+    files:
+      - name: "projects"
+        label: "Dự án (các chặng đua)"
+        file: "data/projects.json"
+        format: "json"
+        fields:
+          - label: "Danh sách dự án (kéo thả để đổi thứ tự = thứ tự chặng)"
+            name: "projects"
+            widget: "list"
+            summary: "{{fields.name}} — {{fields.id}}"
+            collapsed: true
+            fields:
+              - { label: "ID (chữ thường, không dấu, không khoảng trắng — tạo URL /id)", name: "id", widget: "string", pattern: ["^[a-z0-9-]+$", "Chỉ a-z, 0-9 và dấu gạch ngang"] }
+              - { label: "Tên dự án", name: "name", widget: "string" }
+              - { label: "Màu nhận diện", name: "color", widget: "color", default: "#F5D000" }
+              - { label: "Ảnh bìa (1400×1000)", name: "hero", widget: "image" }
+              - label: "Các trang case study (chụp từ Figma, rộng 1400px, theo thứ tự)"
+                name: "pages"
+                widget: "list"
+                field: { label: "Ảnh trang", name: "img", widget: "image" }
+              - label: "Nội dung tiếng Anh"
+                name: "en"
+                widget: "object"
+                collapsed: true
+                fields: &langfields
+                  - { label: "Kicker (dòng mô tả ngắn)", name: "kicker", widget: "string" }
+                  - { label: "Tagline", name: "tag", widget: "string" }
+                  - { label: "Nhóm", name: "team", widget: "string" }
+                  - { label: "Thời gian", name: "time", widget: "string" }
+                  - { label: "Vai trò", name: "role", widget: "string" }
+                  - { label: "Nền tảng", name: "platform", widget: "string" }
+                  - { label: "Tổng quan", name: "over", widget: "text" }
+                  - label: "Giai đoạn"
+                    name: "phases"
+                    widget: "list"
+                    summary: "{{fields.title}}"
+                    fields:
+                      - { label: "Tên giai đoạn", name: "title", widget: "string" }
+                      - label: "Các bước"
+                        name: "items"
+                        widget: "list"
+                        field: { label: "Bước", name: "item", widget: "string" }
+                  - { label: "Chú thích ảnh", name: "cap", widget: "string", required: false }
+              - label: "Nội dung tiếng Việt"
+                name: "vi"
+                widget: "object"
+                collapsed: true
+                fields: *langfields
