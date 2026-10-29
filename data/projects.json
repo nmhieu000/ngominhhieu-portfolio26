@@ -12,6 +12,13 @@
     "/pages/vievu-4.jpg",
     "/pages/vievu-5.jpg"
    ],
+   "pages_en": [
+    "/pages/en/vievu-1.jpg",
+    "/pages/en/vievu-2.jpg",
+    "/pages/en/vievu-3.jpg",
+    "/pages/en/vievu-4.jpg",
+    "/pages/en/vievu-5.jpg"
+   ],
    "en": {
     "kicker": "AI travel assistant · UX/UI · From research to interface",
     "tag": "Plan your trip, your way.",
@@ -99,7 +106,14 @@
    "pages": [
     "/pages/mayogu-1.jpg",
     "/pages/mayogu-2.jpg",
-    "/pages/mayogu-3.jpg"
+    "/pages/mayogu-3.jpg",
+    "/pages/mayogu-4.jpg"
+   ],
+   "pages_en": [
+    "/pages/en/mayogu-1.jpg",
+    "/pages/en/mayogu-2.jpg",
+    "/pages/en/mayogu-3.jpg",
+    "/pages/en/mayogu-4.jpg"
    ],
    "en": {
     "kicker": "Community platform · Product improvements · Design system",
@@ -191,7 +205,17 @@
     "/pages/ecobi-3.jpg",
     "/pages/ecobi-4.jpg",
     "/pages/ecobi-5.jpg",
-    "/pages/ecobi-6.jpg"
+    "/pages/ecobi-6.jpg",
+    "/pages/ecobi-7.jpg"
+   ],
+   "pages_en": [
+    "/pages/en/ecobi-1.jpg",
+    "/pages/en/ecobi-2.jpg",
+    "/pages/en/ecobi-3.jpg",
+    "/pages/en/ecobi-4.jpg",
+    "/pages/en/ecobi-5.jpg",
+    "/pages/en/ecobi-6.jpg",
+    "/pages/en/ecobi-7.jpg"
    ],
    "en": {
     "kicker": "Ba Vi National Park operations · Research-driven design",
@@ -279,7 +303,13 @@
    "hero": "/img/hero-mayticket.jpg",
    "pages": [
     "/pages/mayticket-1.jpg",
-    "/pages/mayticket-2.jpg"
+    "/pages/mayticket-2.jpg",
+    "/pages/mayticket-3.jpg"
+   ],
+   "pages_en": [
+    "/pages/en/mayticket-1.jpg",
+    "/pages/en/mayticket-2.jpg",
+    "/pages/en/mayticket-3.jpg"
    ],
    "en": {
     "kicker": "Event ticketing website · Design system · Core flow",
@@ -363,9 +393,13 @@
     "/pages/retrotunes-1.jpg",
     "/pages/retrotunes-2.jpg",
     "/pages/retrotunes-3.jpg",
-    "/pages/retrotunes-4.jpg",
-    "/pages/retrotunes-5.jpg",
-    "/pages/retrotunes-6.jpg"
+    "/pages/retrotunes-4.jpg"
+   ],
+   "pages_en": [
+    "/pages/en/retrotunes-1.jpg",
+    "/pages/en/retrotunes-2.jpg",
+    "/pages/en/retrotunes-3.jpg",
+    "/pages/en/retrotunes-4.jpg"
    ],
    "en": {
     "kicker": "Music discovery · UI exploration · Visual design",
@@ -448,6 +482,10 @@
    "pages": [
     "/pages/rikkeisoft-1.jpg",
     "/pages/rikkeisoft-2.jpg"
+   ],
+   "pages_en": [
+    "/pages/en/rikkeisoft-1.jpg",
+    "/pages/en/rikkeisoft-2.jpg"
    ],
    "en": {
     "kicker": "Event landing pages at Rikkeisoft · 2024—2025",
