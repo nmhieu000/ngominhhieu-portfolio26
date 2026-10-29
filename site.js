@@ -14,7 +14,7 @@ const UI={
 const pad=n=>String(n).padStart(2,"0");const NP=()=>pad(P.length);
 let P=[];
 const rel=u=>String(u||"").replace(/^\//,"");
-function normalize(j){return (j.projects||[]).filter(p=>p&&p.id).map(p=>{const L=x=>({kicker:x.kicker||"",tag:x.tag||"",meta:[x.team||"",x.time||"",x.role||"",x.platform||""],over:x.over||"",ph:(x.phases||[]).map(f=>[f.title||"",f.items||[]]),cap:x.cap||""});return {id:p.id,name:p.name||p.id,c:p.color||"#F5D000",hero:rel(p.hero),pageImgs:(p.pages||[]).map(rel),en:L(p.en||{}),vi:L(p.vi||p.en||{})};});}
+function normalize(j){return (j.projects||[]).filter(p=>p&&p.id).map(p=>{const L=x=>({kicker:x.kicker||"",tag:x.tag||"",meta:[x.team||"",x.time||"",x.role||"",x.platform||""],over:x.over||"",ph:(x.phases||[]).map(f=>[f.title||"",f.items||[]]),cap:x.cap||""});return {id:p.id,name:p.name||p.id,c:p.color||"#F5D000",hero:rel(p.hero),pageImgs:(p.pages||[]).map(rel),pageImgsEn:(p.pages_en&&p.pages_en.length?p.pages_en:(p.pages||[])).map(rel),en:L(p.en||{}),vi:L(p.vi||p.en||{})};});}
 async function loadProjects(){try{const r=await fetch("data/projects.json",{cache:"no-store"});if(!r.ok)throw new Error(r.status);P=normalize(await r.json());}catch(e){console.error("Không tải được data/projects.json — hãy mở trang qua http(s) (hosting hoặc local server), không mở trực tiếp file://",e);P=[];}}
 
 let lang="en";
@@ -35,9 +35,9 @@ function renderHome(){const t=UI[lang];
   document.getElementById("exp").innerHTML=t.exp.map(row).join("");
   document.getElementById("edu").innerHTML=t.edu.map(row).join("");}
 function renderProject(id){const t=UI[lang];const r=t.race;const i=P.findIndex(p=>p.id===id);const p=P[i];const d=p[lang];const next=P[(i+1)%P.length];const prev=P[(i-1+P.length)%P.length];
-  const N=p.pageImgs.length||1;
+  const imgs=(lang==="en"?p.pageImgsEn:p.pageImgs);const N=imgs.length||1;
   document.title=p.name+" — Ngo Minh Hieu";
-  const pages=p.pageImgs.map((src,k)=>`<img class="fig" src="${src}" alt="${p.name} — ${t.lap} ${pad(i+1)} · ${k+1}/${N}" loading="${k?'lazy':'eager'}">`).join('');
+  const pages=imgs.map((src,k)=>`<img class="fig" src="${src}" alt="${p.name} — ${t.lap} ${pad(i+1)} · ${k+1}/${N}" loading="${k?'lazy':'eager'}">`).join('');
   document.getElementById("project").innerHTML=`<section class="figpages" style="--c:${p.c}"><div class="figstack">${pages}</div></section>
   <section class="pxdivider" style="--c:${p.c}"><div class="kerb" aria-hidden="true"></div><div class="wrap dv"><div class="pxbox"><p class="pxl">${t.lap} ${pad(i+1)} · ${r.done}</p><p class="big">${r.next} ▶ ${t.lap} ${pad(((i+1)%P.length)+1)} — ${next.name}</p></div><div class="btns"><a class="pxbtn ghost" href="${prev.id}.html">◀ ${prev.name}</a><a class="pxbtn" href="${next.id}.html">${next.name} ▶</a><a class="pxbtn ghost" href="${HOME()}">⌂ ${HOMELBL()}</a></div></div><div class="check" aria-hidden="true"></div></section>`;
   const back=document.getElementById('back');if(back){back.textContent='◀ '+HOMELBL();back.setAttribute('href',HOME());}const ln=document.getElementById('lapno');if(ln)ln.textContent=t.lap.toUpperCase()+' '+pad(i+1)+' / '+NP()+' · '+p.name.toUpperCase();}

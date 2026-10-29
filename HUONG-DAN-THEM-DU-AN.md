@@ -9,7 +9,7 @@ Số chặng, HUD `LAPS 06/06`, nút Prev/Next, danh sách ở classic layout, m
 1. Ảnh: `img/hero-foodly.jpg` (1400×1000) và `pages/foodly-1.jpg, -2.jpg, …` (rộng 1400px).
 2. Mở `data/projects.json`, copy một phần tử trong mảng `projects`, dán vào vị trí muốn (thứ tự mảng = thứ tự chặng), sửa:
    - `"id": "foodly"` — chữ thường, không dấu; trang sẽ ở địa chỉ `/foodly`.
-   - `"name"`, `"color"` (mã hex), `"hero": "/img/hero-foodly.jpg"`, `"pages": ["/pages/foodly-1.jpg", ...]`.
+   - `"name"`, `"color"` (mã hex), `"hero": "/img/hero-foodly.jpg"`, `"pages": ["/pages/foodly-1.jpg", ...]` (ảnh tiếng Việt) và `"pages_en": ["/pages/en/foodly-1.jpg", ...]` (ảnh tiếng Anh — bỏ trống thì web dùng ảnh tiếng Việt cho cả hai ngôn ngữ).
    - `"en"` và `"vi"`: kicker, tag, team, time, role, platform, over, phases (title + items), cap.
 3. Không cần tạo file HTML mới: trang dự án dùng chung `project.html` (Netlify tự điều hướng nhờ file `_redirects`). Nếu host nơi khác không hỗ trợ redirect, copy `project.html` thành `foodly.html`.
 
