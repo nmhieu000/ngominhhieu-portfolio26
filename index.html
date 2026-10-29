@@ -6,6 +6,91 @@
 <title>Ngo Minh Hieu — UX/UI Portfolio</title>
 <style>img{max-width:100%}body{margin:0}</style>
 <script src="https://identity.netlify.com/v1/netlify-identity-widget.js" defer></script>
+  <style>
+.sector .in.lapcard {
+  grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr);
+  padding: 0;
+  align-items: stretch;
+}
+
+.sector .lapcard .poster {
+  width: 100%;
+  max-width: none;
+  min-width: 0;
+  height: auto;
+  max-height: none;
+  border-radius: 0;
+}
+
+.sector .lapcard .poster img {
+  position: static;
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.sector .lapcard .board {
+  min-width: 0;
+  margin: 0;
+  border: 0;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.sector .lapcard .board div {
+  min-width: 0;
+  padding: 0;
+  border: 0;
+}
+
+.sector .lapcard .board .n {
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  padding-bottom: 10px;
+  border-bottom: 3px dotted var(--c);
+}
+
+.sector .lapcard .tele {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px;
+}
+
+.sector .lapcard .tele > div {
+  padding: 8px;
+  border: 1px solid #ffffff40;
+}
+
+.sector .lapcard .tele .v {
+  white-space: normal;
+  overflow: visible;
+  overflow-wrap: anywhere;
+}
+
+.sector .lapcard .btn {
+  align-self: center;
+}
+
+@media (max-width: 760px) {
+  .sector .in.lapcard {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .sector .lapcard .poster {
+    border-right: 0;
+  }
+
+  .sector .lapcard .board {
+    padding: 16px;
+  }
+}
+    </body>
+</html>
+</style>
 </head>
 <body>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=VT323&family=Press+Start+2P&display=swap">
